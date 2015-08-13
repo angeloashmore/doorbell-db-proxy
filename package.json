@@ -1,0 +1,32 @@
+{
+  "name": "doorbell-db-proxy",
+  "version": "0.0.1",
+  "description": "Doorbell RethinkDB WebSocket Proxy",
+  "main": "src/index.js",
+  "dependencies": {
+    "rethinkdb-websocket-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-eslint": "^4.0.5",
+    "chai": "^3.2.0",
+    "eslint": "^1.1.0",
+    "eslint-config-airbnb": "0.0.7",
+    "eslint-plugin-react": "^3.2.2",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "mocha",
+    "start": "babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doorbellapp/doorbell-db-proxy.git"
+  },
+  "author": "Angelo Ashmore",
+  "bugs": {
+    "url": "https://github.com/doorbellapp/doorbell-db-proxy/issues"
+  },
+  "homepage": "https://github.com/doorbellapp/doorbell-db-proxy#readme"
+}
